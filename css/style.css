@@ -1,0 +1,124 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Indie Flower', cursive;
+}
+.container{
+	background: #e6cdb8;
+	width: 100vw;
+}
+.inner_wrap{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 300px;
+}
+header{
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	margin-bottom: 100px;
+}
+header h1{
+	font-size: 40px;
+}
+header a{
+	display: inline-block;
+	padding: 10px 20px;
+	background: #e8612c;
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+	font-weight: bold;
+}
+.advantages{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+.advantages .block{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 20px;
+}
+.advantages .block img{
+	width: 50px;
+	height: 50px;
+}
+.advantages .block h3{
+	color: #e8612c;
+	font-size: 30px;
+}
+.advantages .block p{
+	text-align: center;
+}
+.advantages .block a{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.inner_wrap > h2{
+	font-size: 45px;
+}
+.inner_wrap > p{
+	font-size: 20px;
+	text-align: center;
+	width: 65%;
+	margin-bottom: 100px;
+}
+.cards{
+	display: flex;
+	justify-content: space-between;
+}
+.cards .box{
+	background: white;
+	border-radius: 30px;
+	margin: 0 30px;
+	width: 350px;
+	height: 620px;
+	position: relative;
+	top: 100px;
+}
+.cards .box2{
+	position: relative;
+	top: 150px;
+}
+.cards .box img{
+	width: 300px;
+	height: 300px;
+	border-radius: 30px;
+	object-fit: cover;
+	position: relative;
+	top: -50px;
+	left: 25px;
+}
+.dog1{
+	transform: rotate(-10deg);
+}
+.dog2{
+	transform: rotate(15deg);
+}
+.cards .box h2{
+	margin-left: 20px;
+}
+.cards .box p{
+	margin: 0 20px;
+}
+.cards .box .price{
+	margin: 20px;
+	font-size: 20px;
+}
+.cards .box .price span{
+	font-weight: bold;
+	font-size: 30px;
+}
+.cards .box a{
+	margin: 20px;
+	text-decoration: none;
+	padding: 10px 20px;
+	background: #e8612c;
+	border-radius: 20px;
+}
